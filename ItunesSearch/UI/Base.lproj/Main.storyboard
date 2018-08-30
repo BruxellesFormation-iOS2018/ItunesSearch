@@ -119,7 +119,7 @@
                     <connections>
                         <outlet property="mediaResultsTableView" destination="eFG-GB-wBq" id="Ks2-X3-mtz"/>
                         <outlet property="searchBar" destination="9MM-oS-eFO" id="wRi-oG-2Qa"/>
-                        <segue destination="YoO-5z-poV" kind="show" id="inc-OW-9Vp"/>
+                        <segue destination="YoO-5z-poV" kind="show" identifier="MediaDetails" id="inc-OW-9Vp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -133,9 +133,29 @@
                     <view key="view" contentMode="scaleToFill" id="Nzt-iZ-mSI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7V1-9I-SDU">
+                                <rect key="frame" x="30" y="94" width="315" height="494"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="X9Z-2x-QL5" firstAttribute="bottom" secondItem="7V1-9I-SDU" secondAttribute="bottom" constant="30" id="NwK-KV-PNv"/>
+                            <constraint firstItem="7V1-9I-SDU" firstAttribute="top" secondItem="X9Z-2x-QL5" secondAttribute="top" constant="30" id="QVd-o5-tae"/>
+                            <constraint firstItem="X9Z-2x-QL5" firstAttribute="trailing" secondItem="7V1-9I-SDU" secondAttribute="trailing" constant="30" id="VNC-Vj-Dvv"/>
+                            <constraint firstItem="7V1-9I-SDU" firstAttribute="leading" secondItem="X9Z-2x-QL5" secondAttribute="leading" constant="30" id="WAq-PW-w36"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="X9Z-2x-QL5"/>
                     </view>
+                    <navigationItem key="navigationItem" id="sks-hQ-bWk">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="love" id="wr5-2d-Kjz"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mediaLabel" destination="7V1-9I-SDU" id="Q7w-4r-j84"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oRF-uv-5jG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -189,7 +209,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="6wV-B6-pxa"/>
                     <connections>
-                        <segue destination="YoO-5z-poV" kind="show" id="9Vd-Vj-LPY"/>
+                        <segue destination="YoO-5z-poV" kind="show" identifier="MediaDetails" id="9Vd-Vj-LPY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WZg-US-C65" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -217,8 +237,9 @@
     </scenes>
     <resources>
         <image name="Abstract 3" width="1440" height="2560"/>
+        <image name="love" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="inc-OW-9Vp"/>
+        <segue reference="9Vd-Vj-LPY"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -22,13 +22,12 @@ class MediaTableViewCell: UITableViewCell {
                 return
             }
             
-            
-            
             self.mediaImageView.af_setImage(withURL: media.artworkURL, placeholderImage: #imageLiteral(resourceName: "Media PlaceHolder"))
             self.mediaNameLabel.text = media.name
             self.mediaInfoLabel.text = media.artist
         }
     }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -51,7 +50,7 @@ class MediaTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
-        UIView.animate(withDuration: 0.5) {
+        UIView.animate(withDuration: 0.3) {
             self.mainContainerView.backgroundColor = selected ? UIColor.lightGray : UIColor.white
             self.contentView.layer.shadowOpacity = selected ? 0.0 : 0.7
             self.mediaNameLabel.textColor = selected ? UIColor.white : UIColor.black

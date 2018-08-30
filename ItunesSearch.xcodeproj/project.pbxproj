@@ -109,7 +109,6 @@
 				9B8AB746213808850080DDA8 /* MediaDetailsViewController.swift */,
 				9B8AB748213808A70080DDA8 /* FavoritesViewController.swift */,
 				9B8AB7442137E3C40080DDA8 /* MediaTableViewCell.swift */,
-				9B8AB74A213828D30080DDA8 /* UIView+Utils.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -117,6 +116,7 @@
 		9BFF2D002136BD57006EA91B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				9B8AB74A213828D30080DDA8 /* UIView+Utils.swift */,
 				9BFF2CFC2136BD32006EA91B /* URL+Utils.swift */,
 			);
 			path = Utils;

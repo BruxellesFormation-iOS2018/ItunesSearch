@@ -10,6 +10,20 @@ import UIKit
 
 class MediaDetailsViewController: UIViewController {
 
+    var media:  StoreItem?{
+        didSet{
+            guard let media = media else {
+                return
+            }
+            
+            self.loadViewIfNeeded()
+            self.navigationItem.title = media.name
+            self.mediaLabel.text = "\(media)"
+        }
+    }
+    
+    @IBOutlet weak var mediaLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
