@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B8AB7452137E3C40080DDA8 /* MediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8AB7442137E3C40080DDA8 /* MediaTableViewCell.swift */; };
+		9B8AB747213808850080DDA8 /* MediaDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8AB746213808850080DDA8 /* MediaDetailsViewController.swift */; };
+		9B8AB749213808A70080DDA8 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8AB748213808A70080DDA8 /* FavoritesViewController.swift */; };
 		9BFF2CEB2136BCED006EA91B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF2CEA2136BCED006EA91B /* AppDelegate.swift */; };
-		9BFF2CED2136BCED006EA91B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF2CEC2136BCED006EA91B /* ViewController.swift */; };
+		9BFF2CED2136BCED006EA91B /* SearchMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF2CEC2136BCED006EA91B /* SearchMediaViewController.swift */; };
 		9BFF2CF02136BCED006EA91B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFF2CEE2136BCED006EA91B /* Main.storyboard */; };
 		9BFF2CF22136BCEF006EA91B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BFF2CF12136BCEF006EA91B /* Assets.xcassets */; };
 		9BFF2CF52136BCEF006EA91B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFF2CF32136BCEF006EA91B /* LaunchScreen.storyboard */; };
+		9BFF2CFD2136BD32006EA91B /* URL+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF2CFC2136BD32006EA91B /* URL+Utils.swift */; };
+		9BFF2D042136BE40006EA91B /* ItunesAPIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF2D032136BE40006EA91B /* ItunesAPIController.swift */; };
+		9BFF2D062136C410006EA91B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF2D052136C410006EA91B /* Models.swift */; };
+		DFB904C0001F10D4B7E935EE /* Pods_ItunesSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64763D4616E944B9AF7A8A3E /* Pods_ItunesSearch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2753A292CB15F9F25A5F28EC /* Pods-ItunesSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItunesSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-ItunesSearch/Pods-ItunesSearch.release.xcconfig"; sourceTree = "<group>"; };
+		64763D4616E944B9AF7A8A3E /* Pods_ItunesSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ItunesSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8AB7442137E3C40080DDA8 /* MediaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTableViewCell.swift; sourceTree = "<group>"; };
+		9B8AB746213808850080DDA8 /* MediaDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDetailsViewController.swift; sourceTree = "<group>"; };
+		9B8AB748213808A70080DDA8 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		9BFF2CE72136BCED006EA91B /* ItunesSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItunesSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BFF2CEA2136BCED006EA91B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BFF2CEC2136BCED006EA91B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BFF2CEC2136BCED006EA91B /* SearchMediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMediaViewController.swift; sourceTree = "<group>"; };
 		9BFF2CEF2136BCED006EA91B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BFF2CF12136BCEF006EA91B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BFF2CF42136BCEF006EA91B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BFF2CF62136BCEF006EA91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BFF2CFC2136BD32006EA91B /* URL+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Utils.swift"; sourceTree = "<group>"; };
+		9BFF2D032136BE40006EA91B /* ItunesAPIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesAPIController.swift; sourceTree = "<group>"; };
+		9BFF2D052136C410006EA91B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D0EAFAEA6ED3FC1FD23091F6 /* Pods-ItunesSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItunesSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ItunesSearch/Pods-ItunesSearch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB904C0001F10D4B7E935EE /* Pods_ItunesSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		940A5F7632C9CCABBA6C7ABC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64763D4616E944B9AF7A8A3E /* Pods_ItunesSearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9BFF2CDE2136BCED006EA91B = {
 			isa = PBXGroup;
 			children = (
 				9BFF2CE92136BCED006EA91B /* ItunesSearch */,
 				9BFF2CE82136BCED006EA91B /* Products */,
+				D36487BC46D6D33E172C3B07 /* Pods */,
+				940A5F7632C9CCABBA6C7ABC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,69 @@
 		9BFF2CE92136BCED006EA91B /* ItunesSearch */ = {
 			isa = PBXGroup;
 			children = (
-				9BFF2CEA2136BCED006EA91B /* AppDelegate.swift */,
-				9BFF2CEC2136BCED006EA91B /* ViewController.swift */,
-				9BFF2CEE2136BCED006EA91B /* Main.storyboard */,
-				9BFF2CF12136BCEF006EA91B /* Assets.xcassets */,
-				9BFF2CF32136BCEF006EA91B /* LaunchScreen.storyboard */,
+				9BFF2D022136BE26006EA91B /* Business */,
 				9BFF2CF62136BCEF006EA91B /* Info.plist */,
+				9BFF2CFE2136BD47006EA91B /* Application */,
+				9BFF2CFF2136BD4F006EA91B /* UI */,
+				9BFF2D002136BD57006EA91B /* Utils */,
+				9BFF2D012136BD67006EA91B /* Resources */,
 			);
 			path = ItunesSearch;
+			sourceTree = "<group>";
+		};
+		9BFF2CFE2136BD47006EA91B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9BFF2CEA2136BCED006EA91B /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9BFF2CFF2136BD4F006EA91B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9BFF2CEE2136BCED006EA91B /* Main.storyboard */,
+				9BFF2CEC2136BCED006EA91B /* SearchMediaViewController.swift */,
+				9B8AB746213808850080DDA8 /* MediaDetailsViewController.swift */,
+				9B8AB748213808A70080DDA8 /* FavoritesViewController.swift */,
+				9B8AB7442137E3C40080DDA8 /* MediaTableViewCell.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9BFF2D002136BD57006EA91B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9BFF2CFC2136BD32006EA91B /* URL+Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9BFF2D012136BD67006EA91B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9BFF2CF12136BCEF006EA91B /* Assets.xcassets */,
+				9BFF2CF32136BCEF006EA91B /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9BFF2D022136BE26006EA91B /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				9BFF2D032136BE40006EA91B /* ItunesAPIController.swift */,
+				9BFF2D052136C410006EA91B /* Models.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		D36487BC46D6D33E172C3B07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0EAFAEA6ED3FC1FD23091F6 /* Pods-ItunesSearch.debug.xcconfig */,
+				2753A292CB15F9F25A5F28EC /* Pods-ItunesSearch.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BFF2CF92136BCEF006EA91B /* Build configuration list for PBXNativeTarget "ItunesSearch" */;
 			buildPhases = (
+				F322D428C1D4341E1C400C09 /* [CP] Check Pods Manifest.lock */,
 				9BFF2CE32136BCED006EA91B /* Sources */,
 				9BFF2CE42136BCED006EA91B /* Frameworks */,
 				9BFF2CE52136BCED006EA91B /* Resources */,
+				2FB701F0EDFC3166DB4443EF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +214,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2FB701F0EDFC3166DB4443EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ItunesSearch/Pods-ItunesSearch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ItunesSearch/Pods-ItunesSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F322D428C1D4341E1C400C09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ItunesSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9BFF2CE32136BCED006EA91B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BFF2CED2136BCED006EA91B /* ViewController.swift in Sources */,
+				9B8AB747213808850080DDA8 /* MediaDetailsViewController.swift in Sources */,
+				9BFF2CED2136BCED006EA91B /* SearchMediaViewController.swift in Sources */,
+				9B8AB749213808A70080DDA8 /* FavoritesViewController.swift in Sources */,
 				9BFF2CEB2136BCED006EA91B /* AppDelegate.swift in Sources */,
+				9BFF2D042136BE40006EA91B /* ItunesAPIController.swift in Sources */,
+				9BFF2CFD2136BD32006EA91B /* URL+Utils.swift in Sources */,
+				9B8AB7452137E3C40080DDA8 /* MediaTableViewCell.swift in Sources */,
+				9BFF2D062136C410006EA91B /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +409,7 @@
 		};
 		9BFF2CFA2136BCEF006EA91B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0EAFAEA6ED3FC1FD23091F6 /* Pods-ItunesSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +427,7 @@
 		};
 		9BFF2CFB2136BCEF006EA91B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2753A292CB15F9F25A5F28EC /* Pods-ItunesSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
