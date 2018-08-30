@@ -22,7 +22,9 @@ class MediaTableViewCell: UITableViewCell {
                 return
             }
             
-            self.mediaImageView.af_setImage(withURL: media.artworkURL)
+            
+            
+            self.mediaImageView.af_setImage(withURL: media.artworkURL, placeholderImage: #imageLiteral(resourceName: "Media PlaceHolder"))
             self.mediaNameLabel.text = media.name
             self.mediaInfoLabel.text = media.artist
         }

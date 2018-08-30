@@ -71,6 +71,9 @@ class SearchMediaViewController: UIViewController, UITableViewDataSource, UITabl
         self.view.endEditing(true)
     }
     
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        cell.fadeIn()
+    }
     
     func launchSearch(withTerm term: String){
         let query: [String: String] = [

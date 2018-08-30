@@ -10,6 +10,7 @@
 		9B8AB7452137E3C40080DDA8 /* MediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8AB7442137E3C40080DDA8 /* MediaTableViewCell.swift */; };
 		9B8AB747213808850080DDA8 /* MediaDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8AB746213808850080DDA8 /* MediaDetailsViewController.swift */; };
 		9B8AB749213808A70080DDA8 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8AB748213808A70080DDA8 /* FavoritesViewController.swift */; };
+		9B8AB74B213828D30080DDA8 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8AB74A213828D30080DDA8 /* UIView+Utils.swift */; };
 		9BFF2CEB2136BCED006EA91B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF2CEA2136BCED006EA91B /* AppDelegate.swift */; };
 		9BFF2CED2136BCED006EA91B /* SearchMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF2CEC2136BCED006EA91B /* SearchMediaViewController.swift */; };
 		9BFF2CF02136BCED006EA91B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFF2CEE2136BCED006EA91B /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		9B8AB7442137E3C40080DDA8 /* MediaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTableViewCell.swift; sourceTree = "<group>"; };
 		9B8AB746213808850080DDA8 /* MediaDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDetailsViewController.swift; sourceTree = "<group>"; };
 		9B8AB748213808A70080DDA8 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		9B8AB74A213828D30080DDA8 /* UIView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
 		9BFF2CE72136BCED006EA91B /* ItunesSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItunesSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BFF2CEA2136BCED006EA91B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BFF2CEC2136BCED006EA91B /* SearchMediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMediaViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				9B8AB746213808850080DDA8 /* MediaDetailsViewController.swift */,
 				9B8AB748213808A70080DDA8 /* FavoritesViewController.swift */,
 				9B8AB7442137E3C40080DDA8 /* MediaTableViewCell.swift */,
+				9B8AB74A213828D30080DDA8 /* UIView+Utils.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				9BFF2D042136BE40006EA91B /* ItunesAPIController.swift in Sources */,
 				9BFF2CFD2136BD32006EA91B /* URL+Utils.swift in Sources */,
 				9B8AB7452137E3C40080DDA8 /* MediaTableViewCell.swift in Sources */,
+				9B8AB74B213828D30080DDA8 /* UIView+Utils.swift in Sources */,
 				9BFF2D062136C410006EA91B /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
