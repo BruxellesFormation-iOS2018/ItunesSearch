@@ -53,8 +53,7 @@ class SearchMediaViewController: UIViewController, UITableViewDataSource, UITabl
         }
     }
     
-    //MARK:- TableView
-    //MARK: Datasource
+    //MARK:- TableView Datasource
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -69,7 +68,7 @@ class SearchMediaViewController: UIViewController, UITableViewDataSource, UITabl
         return cell
     }
     
-    //MARK: Delegate
+    //MARK: TableView Delegate
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 180
     }
